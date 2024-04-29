@@ -14,12 +14,13 @@
 <script>
 const setupdynamic = () => {
     // Dynamically create and append content
-    $('#dynamic').append('<h2>Final Exam Details</h2>');
-    $('#dynamic').append('<p>Date and Time: December 15, 2024, 9:00 AM</p>');
+    $('#dynamic').append('<h1>Final Exam</h1>');
+    $('#dynamic').append('<p>Date and Time:  May 1st, 2024, 3:00 PM</p>');
     $('#dynamic').append('<p>Location: Room 101, Main Building</p>');
-    $('#dynamic').append('<h2>Final Project Summary</h2>');
+    $('#dynamic').append('<h2>Project Summary</h2>');
     $('#dynamic').append('<p>A brief summary about the final project...</p>');
     $('#dynamic').append('<p>Due Date: April 29th, 2024</p>');
+    $('#dynamic').hide().fadeIn(1000);
 }
 $(document).ready(setupdynamic);
 
